@@ -1,1 +1,4 @@
-.font12 {  font-size:12px;}
+@font-face {
+    font-family: "IRANSans";
+    src: url("../fonts/Yekan.ttf");
+  }

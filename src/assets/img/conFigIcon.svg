@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="home_work-24px" class="cls-1">
+    <g id="Bounding_Box">
+      <rect id="Rectangle_108" data-name="Rectangle 108" class="cls-2" width="24" height="24"/>
+      <rect id="Rectangle_109" data-name="Rectangle 109" class="cls-2" width="24" height="24"/>
+    </g>
+    <g id="Master">
+      <g id="Group_294" data-name="Group 294">
+        <path id="Path_310" data-name="Path 310" class="cls-3" d="M20,3H12a1,1,0,0,0-1,1V5.61l.01.01,5,4.5A2.991,2.991,0,0,1,17,12.35V13h2v2H17v2h2v2H17v2h3a1,1,0,0,0,1-1V4A1,1,0,0,0,20,3ZM15,7H13V5h2Zm4,4H17V9h2Zm0-4H17V5h2Z"/>
+      </g>
+    </g>
+    <path id="Path_53" data-name="Path 53" class="cls-3" d="M18,13H13v5a1,1,0,0,1-2,0V13H6a1,1,0,0,1,0-2h5V6a1,1,0,0,1,2,0v5h5a1,1,0,0,1,0,2Z" transform="translate(-3 2)"/>
+  </g>
+</svg>
