@@ -6,6 +6,7 @@
     "antd": "^4.2.0",
     "bootstrap-styled": "^2.7.2",
     "react": "^16.13.1",
+    "react-countup": "^4.3.3",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",

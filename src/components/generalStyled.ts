@@ -51,9 +51,12 @@ export const Caption = styled.span`
   color: #e9f4fb;
 `;
 export const Container = styled.div`
-  background-image: url(${BgImage});
-  /* background-color: linear-gradient(to bottom, red, blue); */
-  /* opacity: 0.8; */
+  background: linear-gradient(
+      180deg,
+      rgba(3, 78, 162, 0.8) 0%,
+      rgba(0, 174, 239, 0.8) 100%
+    ),
+    url(${BgImage});
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -175,4 +178,7 @@ export const SideMenuTop = styled.div`
 `;
 export const LeftContent = styled.div`
   width: 70%;
+`;
+export const Counter = styled.div`
+  color: red;
 `;

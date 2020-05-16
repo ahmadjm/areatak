@@ -1,4 +1,11 @@
 @font-face {
-    font-family: "IRANSans";
-    src: url("../fonts/Yekan.ttf");
-  }
+  font-family: "IRANSans";
+  src: url("../fonts/Yekan.ttf");
+}
+
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}

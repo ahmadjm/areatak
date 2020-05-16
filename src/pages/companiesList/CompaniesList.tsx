@@ -6,11 +6,15 @@ import {
   Caption,
 } from "../../components/generalStyled";
 import SideMenu from "../../components/SideMenu";
+import Counter from "../../components/Counter";
+
 const CompnaiesListPage = () => {
   return (
     <ListContainer>
       <SideMenu />
-      <LeftContent>sasa</LeftContent>
+      <LeftContent>
+        <Counter value={0} />
+      </LeftContent>
     </ListContainer>
   );
 };

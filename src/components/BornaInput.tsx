@@ -4,7 +4,7 @@ import { Input, Eye, BornaInputContainer } from "./generalStyled";
 type InputProps = {
   name?: string;
   placeholder?: string;
-  type: string;
+  type: "password" | "text";
 };
 
 const BornaInput = (props: InputProps) => {
@@ -14,21 +14,16 @@ const BornaInput = (props: InputProps) => {
   const toggleInputType = () => {
     setInputType((type) => (type === "password" ? "text" : "password"));
   };
-  let eye;
-  if (type === "password") {
-    eye = (
-      <Eye
-        onClick={toggleInputType}
-        src={require("../assets/img/eyeIon.svg")}
-      />
-    );
-  } else {
-    eye = "";
-  }
+
   return (
     <BornaInputContainer>
       <Input type={inputType} name={name} placeholder={placeholder} />
-      {eye}
+      {type === "password" && (
+        <Eye
+          onClick={toggleInputType}
+          src={require("../assets/img/eyeIon.svg")}
+        />
+      )}
     </BornaInputContainer>
   );
 };

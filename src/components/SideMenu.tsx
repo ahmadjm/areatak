@@ -9,6 +9,7 @@ import Ratina from "../assets/img/ratina-black.png";
 import homeIcon from "../assets/img/homeIcon.svg";
 import RegisterIcon from "../assets/img/registerIcon.svg";
 import ConfigIcon from "../assets/img/conFigIcon.svg";
+import Counter from "../components/Counter";
 const SideMenu = () => {
   return (
     <SideMenuBorna>
@@ -31,6 +32,7 @@ const SideMenu = () => {
           <img src={ConfigIcon} />
           تنظیمات
         </li>
+        <Counter value={0} isOdd={true} />
       </SideMenuUl>
       <SideMenuFoot>خروج</SideMenuFoot>
     </SideMenuBorna>
